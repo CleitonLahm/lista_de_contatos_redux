@@ -1,5 +1,9 @@
+import { ContactForm } from "./components/ContactForm";
+
 function App() {
-  return <h1>ola</h1>;
+  return (
+    <ContactForm></ContactForm>
+  );
 }
 
 export default App;
