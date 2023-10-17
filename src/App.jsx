@@ -1,4 +1,6 @@
-import { ContactForm } from "./components/ContactForm";
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import ContactList from "./components/ContactList";
 import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
@@ -6,7 +8,7 @@ function App() {
   return(
     <>
       <GlobalStyles />
-      <ContactForm />
+      <ContactList />
     </>
   )
 }
