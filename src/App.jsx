@@ -1,9 +1,14 @@
 import { ContactForm } from "./components/ContactForm";
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
-  return (
-    <ContactForm></ContactForm>
-  );
+
+  return(
+    <>
+      <GlobalStyles />
+      <ContactForm />
+    </>
+  )
 }
 
 export default App;
